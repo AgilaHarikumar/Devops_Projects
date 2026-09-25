@@ -1,0 +1,9 @@
+replicaCount: 3
+
+image:
+  repository: user-service
+  tag: "2.0"
+  pullPolicy: Never
+
+service:
+  port: 8081

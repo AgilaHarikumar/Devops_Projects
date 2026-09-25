@@ -1,0 +1,7 @@
+Thanks for installing {{ .Chart.Name }},
+
+Your release is named {{ .Release.Name }},
+
+to check status
+
+kubectl get lods -l app=user-service

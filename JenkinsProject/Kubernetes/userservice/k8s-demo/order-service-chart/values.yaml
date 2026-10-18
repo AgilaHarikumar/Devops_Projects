@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: order-service
+  tag: "1.0"
+  pullPolicy: Never
+
+service:
+  port: 8082
+
+apiKey: "demo-api-key-12345"
